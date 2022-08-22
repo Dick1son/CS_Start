@@ -1,0 +1,15 @@
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.csproj.AssemblyReference.cache
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.AssemblyInfoInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.AssemblyInfo.cs
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.csproj.CoreCompileInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\bin\Debug\net6.0\Example003_Seminar_22.exe
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\bin\Debug\net6.0\Example003_Seminar_22.deps.json
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\bin\Debug\net6.0\Example003_Seminar_22.runtimeconfig.json
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\bin\Debug\net6.0\Example003_Seminar_22.dll
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\bin\Debug\net6.0\Example003_Seminar_22.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.dll
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\refint\Example003_Seminar_22.dll
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\Example003_Seminar_22.genruntimeconfig.cache
+C:\Users\Dick1son\Desktop\C#_Start\Example003_Seminar_22\obj\Debug\net6.0\ref\Example003_Seminar_22.dll
