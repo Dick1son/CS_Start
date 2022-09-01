@@ -63,7 +63,7 @@ int[] FillArray(int size, int minValue, int maxValue){
     return arr;
 }
 
-void ShowArray(int [] arr){
+void ShowArray(int[] arr){
     for (int i = 0; i < arr.Length; i++){
         Console.Write($"{arr[i]} ");
     }
