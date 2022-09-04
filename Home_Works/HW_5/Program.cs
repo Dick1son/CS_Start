@@ -64,7 +64,7 @@ int result = SumOdd(FillShowArray(sizeArr, min, max));
 Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях равна {result}");
 */
 
-
+/*
 //Task 3. Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 double[] FillShowArray(int size, int minValue, int maxValue){
     double[] arr = new double [size];
@@ -107,3 +107,4 @@ int max = Convert.ToInt32 (Console.ReadLine());
 double result = Math.Round (FindDifference(FillShowArray(sizeArr, min, max)), 2);
 
 Console.WriteLine($"Разницу между максимальным и минимальным элементами массива равна {result}");
+*/
