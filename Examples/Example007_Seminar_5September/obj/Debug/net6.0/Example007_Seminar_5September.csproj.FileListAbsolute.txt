@@ -1,0 +1,15 @@
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.csproj.AssemblyReference.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.AssemblyInfoInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.AssemblyInfo.cs
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.csproj.CoreCompileInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\bin\Debug\net6.0\Example007_Seminar_5September.exe
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\bin\Debug\net6.0\Example007_Seminar_5September.deps.json
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\bin\Debug\net6.0\Example007_Seminar_5September.runtimeconfig.json
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\bin\Debug\net6.0\Example007_Seminar_5September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\bin\Debug\net6.0\Example007_Seminar_5September.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\refint\Example007_Seminar_5September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\Example007_Seminar_5September.genruntimeconfig.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Example007_Seminar_5September\obj\Debug\net6.0\ref\Example007_Seminar_5September.dll
