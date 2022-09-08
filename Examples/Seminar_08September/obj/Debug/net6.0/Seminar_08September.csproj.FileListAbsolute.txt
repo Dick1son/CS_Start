@@ -1,0 +1,15 @@
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\bin\Debug\net6.0\Seminar_08September.exe
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\bin\Debug\net6.0\Seminar_08September.deps.json
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\bin\Debug\net6.0\Seminar_08September.runtimeconfig.json
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\bin\Debug\net6.0\Seminar_08September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\bin\Debug\net6.0\Seminar_08September.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.csproj.AssemblyReference.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.AssemblyInfoInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.AssemblyInfo.cs
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.csproj.CoreCompileInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\refint\Seminar_08September.dll
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\Seminar_08September.genruntimeconfig.cache
+C:\Users\Dick1son\Desktop\C#_Start\Examples\Seminar_08September\obj\Debug\net6.0\ref\Seminar_08September.dll
