@@ -1,0 +1,15 @@
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.csproj.AssemblyReference.cache
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.AssemblyInfoInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.AssemblyInfo.cs
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.csproj.CoreCompileInputs.cache
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\bin\Debug\net6.0\HW_7.exe
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\bin\Debug\net6.0\HW_7.deps.json
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\bin\Debug\net6.0\HW_7.runtimeconfig.json
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\bin\Debug\net6.0\HW_7.dll
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\bin\Debug\net6.0\HW_7.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.dll
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\refint\HW_7.dll
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.pdb
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\HW_7.genruntimeconfig.cache
+C:\Users\Dick1son\Desktop\C#_Start\Home_Works\HW_7\obj\Debug\net6.0\ref\HW_7.dll
