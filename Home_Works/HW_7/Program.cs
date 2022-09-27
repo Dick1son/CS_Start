@@ -38,7 +38,7 @@ void ShowArray2(double[,] array)
 ShowArray2(CreateRandom2Array());
 */
 
-/*
+
 //Task 2. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
 string[,] CreateRandom2Array()
 {
@@ -114,7 +114,7 @@ ShowArray2(firstArray);
 while(true){
     ShowArray2(SwitchSelected(firstArray, createArray));
 }
-*/
+
 
 /*
 //Task 3. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
@@ -180,4 +180,4 @@ double[] result = MidSum(myArray);
 for (int i = 0; i < myArray.GetLength(0); i++){
     Console.Write($"{result[i]} ") ;
 }
-*/ 
+*/
