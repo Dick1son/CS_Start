@@ -1,5 +1,5 @@
-﻿/*
-//Task 1. Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+﻿//Task 1. Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+/*
 int[,] CreateRandom2Array()
 {
     Console.Write("Input number of rows: ");
@@ -60,8 +60,8 @@ SortedArray(myArr);
 ShowArray2(myArr);
 */
 
-/*
 //Task 2. Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
+/*
 int[,] CreateRandom2Array()
 {
     Console.Write("Input number of rows and columns (n x n): ");
@@ -123,8 +123,9 @@ int minRow = FindMinRow(myArray);
 Console.WriteLine($"Строка с наименьшей суммой элементов: {minRow + 1}");
 */
 
-/*
 //Task 3. Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
+/*
+
 int[,] CreateRandom2Array()
 {
     Console.Write("Input number of rows: ");
@@ -195,8 +196,8 @@ Console.WriteLine($"Произведение двух матриц равно: "
 ShowArray2(result);
 */
 
-/*
 //Task 4. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
+/* 
 int[,,] CreateRandom3Array()
 {
     Console.Write("Input number of rows: ");
@@ -204,26 +205,35 @@ int[,,] CreateRandom3Array()
     Console.Write("Input number of colums: ");
     int columns = Convert.ToInt32(Console.ReadLine());
     Console.Write("Input number of page: ");
-    int hight = Convert.ToInt32(Console.ReadLine());
+    int pages = Convert.ToInt32(Console.ReadLine());
     Console.Write("Input the min possible value: ");
     int minValue = Convert.ToInt32(Console.ReadLine());
     Console.Write("Input the max possible value: ");
     int maxValue = Convert.ToInt32(Console.ReadLine());
-    if (maxValue < (rows * columns)){
+    if (maxValue < (rows * columns * pages)){
         Console.WriteLine("Error");
         System.Environment.Exit(0);
     }
-    int[,,] newArray = new int[rows, columns, hight];
-    for (int k = 0; k < hight; k++){
+    int size = rows * columns * pages;
+    int[] newArray = new int[size];
+    for (int i = 0; i < rows * columns * pages; i++){
+        int j = new Random().Next(minValue, maxValue); // тут получаем случайное значение
+        while (newArray.Contains(j)) j = new Random().Next(1, 20); // тут проверяем
+        newArray[i] = j;
+    }
+    int[,,] arr3d = new int [rows, columns, pages];
+    int counter = 0;
+
+    for (int k = 0; k < pages; k++){
         for(int i = 0; i < rows; i++){
             for(int j = 0; j < columns; j++){
-                
-                newArray[i,j,k] = new Random().Next(minValue, maxValue + 1);   
+                arr3d[i,j,k] = newArray[counter];
+                counter++;
             }
-        }
-    }
+        }  
+    } 
 
-    return newArray;
+    return arr3d;
 }
 
 void ShowArray3(int[,,] array)
@@ -231,7 +241,8 @@ void ShowArray3(int[,,] array)
     for (int k = 0; k < array.GetLength(2); k++){
         for(int i = 0; i < array.GetLength(0); i++){
             for(int j = 0; j < array.GetLength(1); j++)
-                Console.Write($"{array[i,j,k]} ({k},{i},{j})");
+                if (array[i,j,k] < 10) Console.Write($" {array[i,j,k]}({k},{i},{j}) ");
+                else Console.Write($"{array[i,j,k]}({k},{i},{j}) ");
         
             Console.WriteLine();
         }
@@ -240,16 +251,15 @@ void ShowArray3(int[,,] array)
 }
 
 ShowArray3(CreateRandom3Array());
-*/
+ */
 
-
-//Task 5. Напишите программу, которая заполнит спирально массив 4 на 4.
+//Task 5. Напишите программу, которая заполнит спирально массив 4 на 4.(Я честно пытался сделать в общем виде, но она меня довела)
+/* 
 int[,] CreateRandom2Array()
 {
-    Console.Write("Input number of size array: ");
-    int size = Convert.ToInt32(Console.ReadLine());
     Console.Write("Input the start possible value: ");
     int startValue = Convert.ToInt32(Console.ReadLine());
+    int size = 4;
     int[,] newArray = new int[size, size];
     int maxValue = startValue + size * size;
 
@@ -270,38 +280,21 @@ int[,] CreateRandom2Array()
         startValue++;
     }
 
-    int m = 1;
-    int n = 1;
-    while (startValue <= maxValue){
-        while(newArray[m, n + 1] == 0){
-            newArray[m, n] = startValue;
-            startValue++;
-            n++;
-        }
-        while(newArray[m + 1, n] == 0){
-            newArray[m, n] = startValue;
-            startValue++;
-            m++;
-        }
-        while(newArray[m, n - 1] == 0){
-            newArray[m, n] = startValue;
-            startValue++;
-            n--;
-        }
-        while(newArray[m - 1, n] == 0){
-            newArray[m, n] = startValue;
-            startValue++;
-            m--;
-        }
+    for (int j = 1; j < size - 1; j++) {
+        newArray[1, j] = startValue;
+        startValue++;
     }
-
-    for (int i = 0; i < size; i++) {
-        for (int j = 0; j < size; j++) {
-            if (newArray[i, j] == 0) {
-                newArray[i, j] = startValue;
-                startValue++;
-            }
-        }
+    for (int i = 1; i < size - 1; i++) {
+        newArray[i, size - 2] = startValue - 1;
+        startValue++;
+    }
+    for (int j = size - 2; j >= 1; j--) {
+        newArray[size- 2, j] = startValue - 2;
+        startValue++;
+    }
+    for (int i = size - 2; i > 1; i--) {
+        newArray[i, 1] = startValue - 3;
+        startValue++;
     }
 
     return newArray;
@@ -320,3 +313,4 @@ void ShowArray2(int[,] array)
 }
 
 ShowArray2(CreateRandom2Array());
+ */
