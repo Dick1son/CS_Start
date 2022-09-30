@@ -1,5 +1,5 @@
 ﻿//Task 1. Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
-/*
+/* 
 int[,] CreateRandom2Array()
 {
     Console.Write("Input number of rows: ");
@@ -58,10 +58,10 @@ ShowArray2(myArr);
 SortedArray(myArr);
 
 ShowArray2(myArr);
-*/
+ */
 
 //Task 2. Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
-/*
+/* 
 int[,] CreateRandom2Array()
 {
     Console.Write("Input number of rows and columns (n x n): ");
@@ -121,7 +121,7 @@ ShowArray2(myArray);
 int minRow = FindMinRow(myArray);
 
 Console.WriteLine($"Строка с наименьшей суммой элементов: {minRow + 1}");
-*/
+ */
 
 //Task 3. Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 /*
@@ -197,7 +197,7 @@ ShowArray2(result);
 */
 
 //Task 4. Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
-/* 
+/*        
 int[,,] CreateRandom3Array()
 {
     Console.Write("Input number of rows: ");
